@@ -13,16 +13,41 @@
     <link rel="shortcut icon" href="./4geeks.ico" />
   </head>
   <body>
-    <div class="container-fluid text-center">
-      <h1 class="mt-5">Hello Rigo!</h1>
-      <img src="./rigo-baby.jpg" />
-      <p class="alert alert-warning mt-4">
-        If this text is <b>not</b> centered and <b>yellow</b>, you probably have
-        an error
-      </p>
-      <div class="fixed-bottom p-4">
-        Made with ❤️ by
-        <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <div class="container-fluid align-items-center" style="height: 100vh">
+      <div
+        class="row flex-column bg-success align-items-center justify-content-center"
+        style="height: 100vh"
+      >
+        <div
+          class="card flex-column m-2 col-7 col-sm-5 col-md-4 col-lg-3 col-xl-3 col-xxl-2 p-0"
+          style="height: 30em;"
+          id="body-card"
+        >
+          <div class="card-body m-0 p-0 position-relative">
+            <label class="position-absolute ms-2 top-0 start-0" id="topIcon">
+            </label>
+            <label
+              class="card-title position-absolute top-50 start-50 translate-middle"
+              id="numberCard"
+            >
+            </label>
+            <label
+              class="me-2 position-absolute bottom-0 end-0"
+              id="bottonIcon"
+            >
+            </label>
+          </div>
+        </div>
+        <div class="col-auto justify-content-center mt-2">
+          <button type="button" class="btn btn-info" id="buttonRefresh">
+            Check/Cambio
+          </button>
+        </div>
+        <div class="col-auto container-fluid">
+          <p class="alerta mt-2" id="alertas">
+            Pulse el boton para cambio de carta
+          </p>
+        </div>
       </div>
     </div>
   </body>

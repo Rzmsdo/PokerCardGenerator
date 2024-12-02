@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+#bottonIcon {
+  transform: rotate(180deg);
+}
+#numberCard {
+  font-size: 9em;
+}
+#topIcon {
+  font-size: 4em;
+}
+#bottonIcon {
+  font-size: 4em;
+}
+#body-card {
+  border-radius: 5%;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+.alerta {
+  font-size: 1em;
+  color: rgb(200, 255, 0);
+}
+#buttonRefresh {
+  margin-left: 3px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
+#botonContador {
+  margin-left: 3px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.5);
+}
